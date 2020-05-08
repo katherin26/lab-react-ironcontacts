@@ -1,28 +1,61 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  display: flex;
+  background-color: burlywood;
+  width: 600px;
+  height: 100px;
+  padding: 5px;
   color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
 }
 
+h1 {
+  text-shadow: 2px 2px gainsboro;
+}
 .App-title {
   font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+th,
+td {
+  border: 2px solid burlywood;
+  width: 50%;
+  border-radius: 4px;
+}
+
+img {
+  widows: 200px;
+  height: 200px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  margin: 3px;
 }
